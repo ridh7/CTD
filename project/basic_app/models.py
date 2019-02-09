@@ -27,6 +27,16 @@ class UserProfileInfo(models.Model):
     attempts = models.IntegerField(default=0)
     question_id = models.IntegerField(default=0)
 
+    phone1 = models.CharField(max_length=10)
+    phone2 = models.CharField(max_length=10)
+    name1 = models.CharField(max_length=100)
+    name2 = models.CharField(max_length=100)
+    email1 = models.EmailField()
+    email2 = models.EmailField()
+    option = models.CharField(max_length=3, default='c')
+    level = models.CharField(max_length=10)
+    flag = models.BooleanField(default=False)
+
     def __str__(self):
 
         return self.user.username

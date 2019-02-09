@@ -9,4 +9,5 @@ urlpatterns =[
     path('api/question/<int:pk>/', views.QuestionsDetail.as_view()),
     path('api/submission/<int:pk>/', views.SubmissionDetail.as_view()),
     path('api/user/<int:pk>/', views.UserDetail.as_view()),
+    path('', views.register)
 ]

@@ -1,0 +1,44 @@
+.navig{
+    height:7vh;
+    background-color: black;
+    width: 100%;
+    border: 5px solid black;
+    display: flex;
+
+}
+
+.centerbox{
+    height: 86vh;
+    background-color: bisque;
+    width: 100%;
+    border: 2px solid red;
+
+}
+
+.footer{
+    color:white;
+    height: 7vh;
+    font-size: 3vh;
+    font-weight: unset;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+}
+.title{
+color:black;
+font-size: 5vh;
+display: flex;
+justify-content: center;
+}
+
+.content{
+    margin-top: 10vh;
+    display:flex;
+    justify-content: center;
+}
+.proceed{
+    margin-top:30vh;
+    display:flex;
+    justify-content: center;
+}
